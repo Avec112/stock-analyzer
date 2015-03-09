@@ -1,0 +1,784 @@
+{
+    "query": {
+        "count": 2,
+        "created": "2015-03-08T22:34:54Z",
+        "lang": "en-US",
+        "results": {
+            "incomestatement": [
+                {
+                    "symbol": "aapl",
+                    "timeframe": "quarterly",
+                    "statement": [
+                        {
+                            "period": "Dec 27, 2014",
+                            "TotalRevenue": {
+                                "report_row": "1",
+                                "content": "74599000000"
+                            },
+                            "CostofRevenue": {
+                                "report_row": "2",
+                                "content": "44858000000"
+                            },
+                            "GrossProfit": {
+                                "report_row": "3",
+                                "content": "29741000000"
+                            },
+                            "ResearchDevelopment": {
+                                "report_row": "4",
+                                "content": "1895000000"
+                            },
+                            "SellingGeneralandAdministrative": {
+                                "report_row": "5",
+                                "content": "3600000000"
+                            },
+                            "NonRecurring": {
+                                "report_row": "6",
+                                "content": "-"
+                            },
+                            "Others": {
+                                "report_row": "7",
+                                "content": "-"
+                            },
+                            "TotalOperatingExpenses": {
+                                "report_row": "8",
+                                "content": "-"
+                            },
+                            "OperatingIncomeorLoss": {
+                                "report_row": "9",
+                                "content": "24246000000"
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                                "report_row": "10",
+                                "content": "170000000"
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                                "report_row": "11",
+                                "content": "24416000000"
+                            },
+                            "InterestExpense": {
+                                "report_row": "12",
+                                "content": "-"
+                            },
+                            "IncomeBeforeTax": {
+                                "report_row": "13",
+                                "content": "24416000000"
+                            },
+                            "IncomeTaxExpense": {
+                                "report_row": "14",
+                                "content": "6392000000"
+                            },
+                            "MinorityInterest": {
+                                "report_row": "15",
+                                "content": "-"
+                            },
+                            "NetIncomeFromContinuingOps": {
+                                "report_row": "16",
+                                "content": "18024000000"
+                            },
+                            "DiscontinuedOperations": {
+                                "report_row": "17",
+                                "content": "-"
+                            },
+                            "ExtraordinaryItems": {
+                                "report_row": "18",
+                                "content": "-"
+                            },
+                            "EffectOfAccountingChanges": {
+                                "report_row": "19",
+                                "content": "-"
+                            },
+                            "OtherItems": {
+                                "report_row": "20",
+                                "content": "-"
+                            },
+                            "NetIncome": {
+                                "report_row": "21",
+                                "content": "18024000000"
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                                "report_row": "22",
+                                "content": "-"
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                                "report_row": "23",
+                                "content": "18024000000"
+                            }
+                        },
+                        {
+                            "period": "Sep 27, 2014",
+                            "TotalRevenue": {
+                                "report_row": "1",
+                                "content": "42123000000"
+                            },
+                            "CostofRevenue": {
+                                "report_row": "2",
+                                "content": "26114000000"
+                            },
+                            "GrossProfit": {
+                                "report_row": "3",
+                                "content": "16009000000"
+                            },
+                            "ResearchDevelopment": {
+                                "report_row": "4",
+                                "content": "1686000000"
+                            },
+                            "SellingGeneralandAdministrative": {
+                                "report_row": "5",
+                                "content": "3158000000"
+                            },
+                            "NonRecurring": {
+                                "report_row": "6",
+                                "content": "-"
+                            },
+                            "Others": {
+                                "report_row": "7",
+                                "content": "-"
+                            },
+                            "TotalOperatingExpenses": {
+                                "report_row": "8",
+                                "content": "-"
+                            },
+                            "OperatingIncomeorLoss": {
+                                "report_row": "9",
+                                "content": "11165000000"
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                                "report_row": "10",
+                                "content": "307000000"
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                                "report_row": "11",
+                                "content": "11472000000"
+                            },
+                            "InterestExpense": {
+                                "report_row": "12",
+                                "content": "-"
+                            },
+                            "IncomeBeforeTax": {
+                                "report_row": "13",
+                                "content": "11472000000"
+                            },
+                            "IncomeTaxExpense": {
+                                "report_row": "14",
+                                "content": "3005000000"
+                            },
+                            "MinorityInterest": {
+                                "report_row": "15",
+                                "content": "-"
+                            },
+                            "NetIncomeFromContinuingOps": {
+                                "report_row": "16",
+                                "content": "8467000000"
+                            },
+                            "DiscontinuedOperations": {
+                                "report_row": "17",
+                                "content": "-"
+                            },
+                            "ExtraordinaryItems": {
+                                "report_row": "18",
+                                "content": "-"
+                            },
+                            "EffectOfAccountingChanges": {
+                                "report_row": "19",
+                                "content": "-"
+                            },
+                            "OtherItems": {
+                                "report_row": "20",
+                                "content": "-"
+                            },
+                            "NetIncome": {
+                                "report_row": "21",
+                                "content": "8467000000"
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                                "report_row": "22",
+                                "content": "-"
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                                "report_row": "23",
+                                "content": "8467000000"
+                            }
+                        },
+                        {
+                            "period": "Jun 28, 2014",
+                            "TotalRevenue": {
+                                "report_row": "1",
+                                "content": "37432000000"
+                            },
+                            "CostofRevenue": {
+                                "report_row": "2",
+                                "content": "22697000000"
+                            },
+                            "GrossProfit": {
+                                "report_row": "3",
+                                "content": "14735000000"
+                            },
+                            "ResearchDevelopment": {
+                                "report_row": "4",
+                                "content": "1603000000"
+                            },
+                            "SellingGeneralandAdministrative": {
+                                "report_row": "5",
+                                "content": "2850000000"
+                            },
+                            "NonRecurring": {
+                                "report_row": "6",
+                                "content": "-"
+                            },
+                            "Others": {
+                                "report_row": "7",
+                                "content": "-"
+                            },
+                            "TotalOperatingExpenses": {
+                                "report_row": "8",
+                                "content": "-"
+                            },
+                            "OperatingIncomeorLoss": {
+                                "report_row": "9",
+                                "content": "10282000000"
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                                "report_row": "10",
+                                "content": "202000000"
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                                "report_row": "11",
+                                "content": "10484000000"
+                            },
+                            "InterestExpense": {
+                                "report_row": "12",
+                                "content": "-"
+                            },
+                            "IncomeBeforeTax": {
+                                "report_row": "13",
+                                "content": "10484000000"
+                            },
+                            "IncomeTaxExpense": {
+                                "report_row": "14",
+                                "content": "2736000000"
+                            },
+                            "MinorityInterest": {
+                                "report_row": "15",
+                                "content": "-"
+                            },
+                            "NetIncomeFromContinuingOps": {
+                                "report_row": "16",
+                                "content": "7748000000"
+                            },
+                            "DiscontinuedOperations": {
+                                "report_row": "17",
+                                "content": "-"
+                            },
+                            "ExtraordinaryItems": {
+                                "report_row": "18",
+                                "content": "-"
+                            },
+                            "EffectOfAccountingChanges": {
+                                "report_row": "19",
+                                "content": "-"
+                            },
+                            "OtherItems": {
+                                "report_row": "20",
+                                "content": "-"
+                            },
+                            "NetIncome": {
+                                "report_row": "21",
+                                "content": "7748000000"
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                                "report_row": "22",
+                                "content": "-"
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                                "report_row": "23",
+                                "content": "7748000000"
+                            }
+                        },
+                        {
+                            "period": "Mar 29, 2014",
+                            "TotalRevenue": {
+                                "report_row": "1",
+                                "content": "45646000000"
+                            },
+                            "CostofRevenue": {
+                                "report_row": "2",
+                                "content": "27699000000"
+                            },
+                            "GrossProfit": {
+                                "report_row": "3",
+                                "content": "17947000000"
+                            },
+                            "ResearchDevelopment": {
+                                "report_row": "4",
+                                "content": "1422000000"
+                            },
+                            "SellingGeneralandAdministrative": {
+                                "report_row": "5",
+                                "content": "2932000000"
+                            },
+                            "NonRecurring": {
+                                "report_row": "6",
+                                "content": "-"
+                            },
+                            "Others": {
+                                "report_row": "7",
+                                "content": "-"
+                            },
+                            "TotalOperatingExpenses": {
+                                "report_row": "8",
+                                "content": "-"
+                            },
+                            "OperatingIncomeorLoss": {
+                                "report_row": "9",
+                                "content": "13593000000"
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                                "report_row": "10",
+                                "content": "225000000"
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                                "report_row": "11",
+                                "content": "13818000000"
+                            },
+                            "InterestExpense": {
+                                "report_row": "12",
+                                "content": "-"
+                            },
+                            "IncomeBeforeTax": {
+                                "report_row": "13",
+                                "content": "13818000000"
+                            },
+                            "IncomeTaxExpense": {
+                                "report_row": "14",
+                                "content": "3595000000"
+                            },
+                            "MinorityInterest": {
+                                "report_row": "15",
+                                "content": "-"
+                            },
+                            "NetIncomeFromContinuingOps": {
+                                "report_row": "16",
+                                "content": "10223000000"
+                            },
+                            "DiscontinuedOperations": {
+                                "report_row": "17",
+                                "content": "-"
+                            },
+                            "ExtraordinaryItems": {
+                                "report_row": "18",
+                                "content": "-"
+                            },
+                            "EffectOfAccountingChanges": {
+                                "report_row": "19",
+                                "content": "-"
+                            },
+                            "OtherItems": {
+                                "report_row": "20",
+                                "content": "-"
+                            },
+                            "NetIncome": {
+                                "report_row": "21",
+                                "content": "10223000000"
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                                "report_row": "22",
+                                "content": "-"
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                                "report_row": "23",
+                                "content": "10223000000"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "symbol": "T",
+                    "timeframe": "quarterly",
+                    "statement": [
+                        {
+                            "period": "Dec 31, 2014",
+                            "TotalRevenue": {
+                                "report_row": "1",
+                                "content": "34439000000"
+                            },
+                            "CostofRevenue": {
+                                "report_row": "2",
+                                "content": "18537000000"
+                            },
+                            "GrossProfit": {
+                                "report_row": "3",
+                                "content": "15902000000"
+                            },
+                            "ResearchDevelopment": {
+                                "report_row": "4",
+                                "content": "-"
+                            },
+                            "SellingGeneralandAdministrative": {
+                                "report_row": "5",
+                                "content": "16885000000"
+                            },
+                            "NonRecurring": {
+                                "report_row": "6",
+                                "content": "-"
+                            },
+                            "Others": {
+                                "report_row": "7",
+                                "content": "4567000000"
+                            },
+                            "TotalOperatingExpenses": {
+                                "report_row": "8",
+                                "content": "-"
+                            },
+                            "OperatingIncomeorLoss": {
+                                "report_row": "9",
+                                "content": "-5550000000"
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                                "report_row": "10",
+                                "content": "196000000"
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                                "report_row": "11",
+                                "content": "-5367000000"
+                            },
+                            "InterestExpense": {
+                                "report_row": "12",
+                                "content": "856000000"
+                            },
+                            "IncomeBeforeTax": {
+                                "report_row": "13",
+                                "content": "-6223000000"
+                            },
+                            "IncomeTaxExpense": {
+                                "report_row": "14",
+                                "content": "-2327000000"
+                            },
+                            "MinorityInterest": {
+                                "report_row": "15",
+                                "content": "-81000000"
+                            },
+                            "NetIncomeFromContinuingOps": {
+                                "report_row": "16",
+                                "content": "-3990000000"
+                            },
+                            "DiscontinuedOperations": {
+                                "report_row": "17",
+                                "content": "-"
+                            },
+                            "ExtraordinaryItems": {
+                                "report_row": "18",
+                                "content": "-"
+                            },
+                            "EffectOfAccountingChanges": {
+                                "report_row": "19",
+                                "content": "-"
+                            },
+                            "OtherItems": {
+                                "report_row": "20",
+                                "content": "-"
+                            },
+                            "NetIncome": {
+                                "report_row": "21",
+                                "content": "-3977000000"
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                                "report_row": "22",
+                                "content": "-"
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                                "report_row": "23",
+                                "content": "-3977000000"
+                            }
+                        },
+                        {
+                            "period": "Sep 30, 2014",
+                            "TotalRevenue": {
+                                "report_row": "1",
+                                "content": "32957000000"
+                            },
+                            "CostofRevenue": {
+                                "report_row": "2",
+                                "content": "14541000000"
+                            },
+                            "GrossProfit": {
+                                "report_row": "3",
+                                "content": "18416000000"
+                            },
+                            "ResearchDevelopment": {
+                                "report_row": "4",
+                                "content": "-"
+                            },
+                            "SellingGeneralandAdministrative": {
+                                "report_row": "5",
+                                "content": "8475000000"
+                            },
+                            "NonRecurring": {
+                                "report_row": "6",
+                                "content": "-"
+                            },
+                            "Others": {
+                                "report_row": "7",
+                                "content": "4539000000"
+                            },
+                            "TotalOperatingExpenses": {
+                                "report_row": "8",
+                                "content": "-"
+                            },
+                            "OperatingIncomeorLoss": {
+                                "report_row": "9",
+                                "content": "5402000000"
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                                "report_row": "10",
+                                "content": "42000000"
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                                "report_row": "11",
+                                "content": "5442000000"
+                            },
+                            "InterestExpense": {
+                                "report_row": "12",
+                                "content": "1016000000"
+                            },
+                            "IncomeBeforeTax": {
+                                "report_row": "13",
+                                "content": "4426000000"
+                            },
+                            "IncomeTaxExpense": {
+                                "report_row": "14",
+                                "content": "1367000000"
+                            },
+                            "MinorityInterest": {
+                                "report_row": "15",
+                                "content": "-57000000"
+                            },
+                            "NetIncomeFromContinuingOps": {
+                                "report_row": "16",
+                                "content": "3000000000"
+                            },
+                            "DiscontinuedOperations": {
+                                "report_row": "17",
+                                "content": "-"
+                            },
+                            "ExtraordinaryItems": {
+                                "report_row": "18",
+                                "content": "-"
+                            },
+                            "EffectOfAccountingChanges": {
+                                "report_row": "19",
+                                "content": "-"
+                            },
+                            "OtherItems": {
+                                "report_row": "20",
+                                "content": "-"
+                            },
+                            "NetIncome": {
+                                "report_row": "21",
+                                "content": "3002000000"
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                                "report_row": "22",
+                                "content": "-"
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                                "report_row": "23",
+                                "content": "3002000000"
+                            }
+                        },
+                        {
+                            "period": "Jun 30, 2014",
+                            "TotalRevenue": {
+                                "report_row": "1",
+                                "content": "32575000000"
+                            },
+                            "CostofRevenue": {
+                                "report_row": "2",
+                                "content": "14212000000"
+                            },
+                            "GrossProfit": {
+                                "report_row": "3",
+                                "content": "18363000000"
+                            },
+                            "ResearchDevelopment": {
+                                "report_row": "4",
+                                "content": "-"
+                            },
+                            "SellingGeneralandAdministrative": {
+                                "report_row": "5",
+                                "content": "8197000000"
+                            },
+                            "NonRecurring": {
+                                "report_row": "6",
+                                "content": "-"
+                            },
+                            "Others": {
+                                "report_row": "7",
+                                "content": "4550000000"
+                            },
+                            "TotalOperatingExpenses": {
+                                "report_row": "8",
+                                "content": "-"
+                            },
+                            "OperatingIncomeorLoss": {
+                                "report_row": "9",
+                                "content": "5616000000"
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                                "report_row": "10",
+                                "content": "1269000000"
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                                "report_row": "11",
+                                "content": "6987000000"
+                            },
+                            "InterestExpense": {
+                                "report_row": "12",
+                                "content": "881000000"
+                            },
+                            "IncomeBeforeTax": {
+                                "report_row": "13",
+                                "content": "6106000000"
+                            },
+                            "IncomeTaxExpense": {
+                                "report_row": "14",
+                                "content": "2485000000"
+                            },
+                            "MinorityInterest": {
+                                "report_row": "15",
+                                "content": "-74000000"
+                            },
+                            "NetIncomeFromContinuingOps": {
+                                "report_row": "16",
+                                "content": "3649000000"
+                            },
+                            "DiscontinuedOperations": {
+                                "report_row": "17",
+                                "content": "-"
+                            },
+                            "ExtraordinaryItems": {
+                                "report_row": "18",
+                                "content": "-"
+                            },
+                            "EffectOfAccountingChanges": {
+                                "report_row": "19",
+                                "content": "-"
+                            },
+                            "OtherItems": {
+                                "report_row": "20",
+                                "content": "-"
+                            },
+                            "NetIncome": {
+                                "report_row": "21",
+                                "content": "3547000000"
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                                "report_row": "22",
+                                "content": "-"
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                                "report_row": "23",
+                                "content": "3547000000"
+                            }
+                        },
+                        {
+                            "period": "Mar 31, 2014",
+                            "TotalRevenue": {
+                                "report_row": "1",
+                                "content": "32476000000"
+                            },
+                            "CostofRevenue": {
+                                "report_row": "2",
+                                "content": "13321000000"
+                            },
+                            "GrossProfit": {
+                                "report_row": "3",
+                                "content": "19155000000"
+                            },
+                            "ResearchDevelopment": {
+                                "report_row": "4",
+                                "content": "-"
+                            },
+                            "SellingGeneralandAdministrative": {
+                                "report_row": "5",
+                                "content": "8260000000"
+                            },
+                            "NonRecurring": {
+                                "report_row": "6",
+                                "content": "-"
+                            },
+                            "Others": {
+                                "report_row": "7",
+                                "content": "4617000000"
+                            },
+                            "TotalOperatingExpenses": {
+                                "report_row": "8",
+                                "content": "-"
+                            },
+                            "OperatingIncomeorLoss": {
+                                "report_row": "9",
+                                "content": "6278000000"
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                                "report_row": "10",
+                                "content": "145000000"
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                                "report_row": "11",
+                                "content": "6511000000"
+                            },
+                            "InterestExpense": {
+                                "report_row": "12",
+                                "content": "860000000"
+                            },
+                            "IncomeBeforeTax": {
+                                "report_row": "13",
+                                "content": "5651000000"
+                            },
+                            "IncomeTaxExpense": {
+                                "report_row": "14",
+                                "content": "1917000000"
+                            },
+                            "MinorityInterest": {
+                                "report_row": "15",
+                                "content": "-82000000"
+                            },
+                            "NetIncomeFromContinuingOps": {
+                                "report_row": "16",
+                                "content": "3740000000"
+                            },
+                            "DiscontinuedOperations": {
+                                "report_row": "17",
+                                "content": "-"
+                            },
+                            "ExtraordinaryItems": {
+                                "report_row": "18",
+                                "content": "-"
+                            },
+                            "EffectOfAccountingChanges": {
+                                "report_row": "19",
+                                "content": "-"
+                            },
+                            "OtherItems": {
+                                "report_row": "20",
+                                "content": "-"
+                            },
+                            "NetIncome": {
+                                "report_row": "21",
+                                "content": "3652000000"
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                                "report_row": "22",
+                                "content": "-"
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                                "report_row": "23",
+                                "content": "3652000000"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

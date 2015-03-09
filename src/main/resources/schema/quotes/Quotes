@@ -1,0 +1,1398 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "query": {
+      "id": "http://jsonschema.net/query",
+      "type": "object",
+      "properties": {
+        "count": {
+          "id": "http://jsonschema.net/query/count",
+          "type": "integer"
+        },
+        "created": {
+          "id": "http://jsonschema.net/query/created",
+          "type": "string"
+        },
+        "lang": {
+          "id": "http://jsonschema.net/query/lang",
+          "type": "string"
+        },
+        "results": {
+          "id": "http://jsonschema.net/query/results",
+          "type": "object",
+          "properties": {
+            "quote": {
+              "id": "http://jsonschema.net/query/results/quote",
+              "type": "array",
+              "items": [
+                {
+                  "id": "http://jsonschema.net/query/results/quote/0",
+                  "type": "object",
+                  "properties": {
+                    "symbol": {
+                      "id": "http://jsonschema.net/query/results/quote/0/symbol",
+                      "type": "string"
+                    },
+                    "Ask": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Ask",
+                      "type": "string"
+                    },
+                    "AverageDailyVolume": {
+                      "id": "http://jsonschema.net/query/results/quote/0/AverageDailyVolume",
+                      "type": "string"
+                    },
+                    "Bid": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Bid",
+                      "type": "string"
+                    },
+                    "AskRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/AskRealtime",
+                      "type": "null"
+                    },
+                    "BidRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/BidRealtime",
+                      "type": "null"
+                    },
+                    "BookValue": {
+                      "id": "http://jsonschema.net/query/results/quote/0/BookValue",
+                      "type": "string"
+                    },
+                    "Change_PercentChange": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Change_PercentChange",
+                      "type": "string"
+                    },
+                    "Change": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Change",
+                      "type": "string"
+                    },
+                    "Commission": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Commission",
+                      "type": "null"
+                    },
+                    "Currency": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Currency",
+                      "type": "string"
+                    },
+                    "ChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ChangeRealtime",
+                      "type": "null"
+                    },
+                    "AfterHoursChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/AfterHoursChangeRealtime",
+                      "type": "null"
+                    },
+                    "DividendShare": {
+                      "id": "http://jsonschema.net/query/results/quote/0/DividendShare",
+                      "type": "null"
+                    },
+                    "LastTradeDate": {
+                      "id": "http://jsonschema.net/query/results/quote/0/LastTradeDate",
+                      "type": "string"
+                    },
+                    "TradeDate": {
+                      "id": "http://jsonschema.net/query/results/quote/0/TradeDate",
+                      "type": "null"
+                    },
+                    "EarningsShare": {
+                      "id": "http://jsonschema.net/query/results/quote/0/EarningsShare",
+                      "type": "string"
+                    },
+                    "ErrorIndicationreturnedforsymbolchangedinvalid": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ErrorIndicationreturnedforsymbolchangedinvalid",
+                      "type": "null"
+                    },
+                    "EPSEstimateCurrentYear": {
+                      "id": "http://jsonschema.net/query/results/quote/0/EPSEstimateCurrentYear",
+                      "type": "string"
+                    },
+                    "EPSEstimateNextYear": {
+                      "id": "http://jsonschema.net/query/results/quote/0/EPSEstimateNextYear",
+                      "type": "string"
+                    },
+                    "EPSEstimateNextQuarter": {
+                      "id": "http://jsonschema.net/query/results/quote/0/EPSEstimateNextQuarter",
+                      "type": "string"
+                    },
+                    "DaysLow": {
+                      "id": "http://jsonschema.net/query/results/quote/0/DaysLow",
+                      "type": "string"
+                    },
+                    "DaysHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/0/DaysHigh",
+                      "type": "string"
+                    },
+                    "YearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/0/YearLow",
+                      "type": "string"
+                    },
+                    "YearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/0/YearHigh",
+                      "type": "string"
+                    },
+                    "HoldingsGainPercent": {
+                      "id": "http://jsonschema.net/query/results/quote/0/HoldingsGainPercent",
+                      "type": "null"
+                    },
+                    "AnnualizedGain": {
+                      "id": "http://jsonschema.net/query/results/quote/0/AnnualizedGain",
+                      "type": "null"
+                    },
+                    "HoldingsGain": {
+                      "id": "http://jsonschema.net/query/results/quote/0/HoldingsGain",
+                      "type": "null"
+                    },
+                    "HoldingsGainPercentRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/HoldingsGainPercentRealtime",
+                      "type": "null"
+                    },
+                    "HoldingsGainRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/HoldingsGainRealtime",
+                      "type": "null"
+                    },
+                    "MoreInfo": {
+                      "id": "http://jsonschema.net/query/results/quote/0/MoreInfo",
+                      "type": "null"
+                    },
+                    "OrderBookRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/OrderBookRealtime",
+                      "type": "null"
+                    },
+                    "MarketCapitalization": {
+                      "id": "http://jsonschema.net/query/results/quote/0/MarketCapitalization",
+                      "type": "string"
+                    },
+                    "MarketCapRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/MarketCapRealtime",
+                      "type": "null"
+                    },
+                    "EBITDA": {
+                      "id": "http://jsonschema.net/query/results/quote/0/EBITDA",
+                      "type": "string"
+                    },
+                    "ChangeFromYearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ChangeFromYearLow",
+                      "type": "string"
+                    },
+                    "PercentChangeFromYearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PercentChangeFromYearLow",
+                      "type": "string"
+                    },
+                    "LastTradeRealtimeWithTime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/LastTradeRealtimeWithTime",
+                      "type": "null"
+                    },
+                    "ChangePercentRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ChangePercentRealtime",
+                      "type": "null"
+                    },
+                    "ChangeFromYearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ChangeFromYearHigh",
+                      "type": "string"
+                    },
+                    "PercebtChangeFromYearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PercebtChangeFromYearHigh",
+                      "type": "string"
+                    },
+                    "LastTradeWithTime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/LastTradeWithTime",
+                      "type": "string"
+                    },
+                    "LastTradePriceOnly": {
+                      "id": "http://jsonschema.net/query/results/quote/0/LastTradePriceOnly",
+                      "type": "string"
+                    },
+                    "HighLimit": {
+                      "id": "http://jsonschema.net/query/results/quote/0/HighLimit",
+                      "type": "null"
+                    },
+                    "LowLimit": {
+                      "id": "http://jsonschema.net/query/results/quote/0/LowLimit",
+                      "type": "null"
+                    },
+                    "DaysRange": {
+                      "id": "http://jsonschema.net/query/results/quote/0/DaysRange",
+                      "type": "string"
+                    },
+                    "DaysRangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/DaysRangeRealtime",
+                      "type": "null"
+                    },
+                    "FiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/0/FiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "TwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/0/TwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "ChangeFromTwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ChangeFromTwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "PercentChangeFromTwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PercentChangeFromTwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "ChangeFromFiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ChangeFromFiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "PercentChangeFromFiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PercentChangeFromFiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "Name": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Name",
+                      "type": "string"
+                    },
+                    "Notes": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Notes",
+                      "type": "null"
+                    },
+                    "Open": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Open",
+                      "type": "string"
+                    },
+                    "PreviousClose": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PreviousClose",
+                      "type": "string"
+                    },
+                    "PricePaid": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PricePaid",
+                      "type": "null"
+                    },
+                    "ChangeinPercent": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ChangeinPercent",
+                      "type": "string"
+                    },
+                    "PriceSales": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PriceSales",
+                      "type": "string"
+                    },
+                    "PriceBook": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PriceBook",
+                      "type": "string"
+                    },
+                    "ExDividendDate": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ExDividendDate",
+                      "type": "null"
+                    },
+                    "PERatio": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PERatio",
+                      "type": "string"
+                    },
+                    "DividendPayDate": {
+                      "id": "http://jsonschema.net/query/results/quote/0/DividendPayDate",
+                      "type": "null"
+                    },
+                    "PERatioRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PERatioRealtime",
+                      "type": "null"
+                    },
+                    "PEGRatio": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PEGRatio",
+                      "type": "string"
+                    },
+                    "PriceEPSEstimateCurrentYear": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PriceEPSEstimateCurrentYear",
+                      "type": "string"
+                    },
+                    "PriceEPSEstimateNextYear": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PriceEPSEstimateNextYear",
+                      "type": "string"
+                    },
+                    "Symbol": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Symbol",
+                      "type": "string"
+                    },
+                    "SharesOwned": {
+                      "id": "http://jsonschema.net/query/results/quote/0/SharesOwned",
+                      "type": "null"
+                    },
+                    "ShortRatio": {
+                      "id": "http://jsonschema.net/query/results/quote/0/ShortRatio",
+                      "type": "string"
+                    },
+                    "LastTradeTime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/LastTradeTime",
+                      "type": "string"
+                    },
+                    "TickerTrend": {
+                      "id": "http://jsonschema.net/query/results/quote/0/TickerTrend",
+                      "type": "null"
+                    },
+                    "OneyrTargetPrice": {
+                      "id": "http://jsonschema.net/query/results/quote/0/OneyrTargetPrice",
+                      "type": "string"
+                    },
+                    "Volume": {
+                      "id": "http://jsonschema.net/query/results/quote/0/Volume",
+                      "type": "string"
+                    },
+                    "HoldingsValue": {
+                      "id": "http://jsonschema.net/query/results/quote/0/HoldingsValue",
+                      "type": "null"
+                    },
+                    "HoldingsValueRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/HoldingsValueRealtime",
+                      "type": "null"
+                    },
+                    "YearRange": {
+                      "id": "http://jsonschema.net/query/results/quote/0/YearRange",
+                      "type": "string"
+                    },
+                    "DaysValueChange": {
+                      "id": "http://jsonschema.net/query/results/quote/0/DaysValueChange",
+                      "type": "null"
+                    },
+                    "DaysValueChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/0/DaysValueChangeRealtime",
+                      "type": "null"
+                    },
+                    "StockExchange": {
+                      "id": "http://jsonschema.net/query/results/quote/0/StockExchange",
+                      "type": "string"
+                    },
+                    "DividendYield": {
+                      "id": "http://jsonschema.net/query/results/quote/0/DividendYield",
+                      "type": "null"
+                    },
+                    "PercentChange": {
+                      "id": "http://jsonschema.net/query/results/quote/0/PercentChange",
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "id": "http://jsonschema.net/query/results/quote/1",
+                  "type": "object",
+                  "properties": {
+                    "symbol": {
+                      "id": "http://jsonschema.net/query/results/quote/1/symbol",
+                      "type": "string"
+                    },
+                    "Ask": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Ask",
+                      "type": "string"
+                    },
+                    "AverageDailyVolume": {
+                      "id": "http://jsonschema.net/query/results/quote/1/AverageDailyVolume",
+                      "type": "string"
+                    },
+                    "Bid": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Bid",
+                      "type": "string"
+                    },
+                    "AskRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/AskRealtime",
+                      "type": "null"
+                    },
+                    "BidRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/BidRealtime",
+                      "type": "null"
+                    },
+                    "BookValue": {
+                      "id": "http://jsonschema.net/query/results/quote/1/BookValue",
+                      "type": "string"
+                    },
+                    "Change_PercentChange": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Change_PercentChange",
+                      "type": "string"
+                    },
+                    "Change": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Change",
+                      "type": "string"
+                    },
+                    "Commission": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Commission",
+                      "type": "null"
+                    },
+                    "Currency": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Currency",
+                      "type": "string"
+                    },
+                    "ChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ChangeRealtime",
+                      "type": "null"
+                    },
+                    "AfterHoursChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/AfterHoursChangeRealtime",
+                      "type": "null"
+                    },
+                    "DividendShare": {
+                      "id": "http://jsonschema.net/query/results/quote/1/DividendShare",
+                      "type": "string"
+                    },
+                    "LastTradeDate": {
+                      "id": "http://jsonschema.net/query/results/quote/1/LastTradeDate",
+                      "type": "string"
+                    },
+                    "TradeDate": {
+                      "id": "http://jsonschema.net/query/results/quote/1/TradeDate",
+                      "type": "null"
+                    },
+                    "EarningsShare": {
+                      "id": "http://jsonschema.net/query/results/quote/1/EarningsShare",
+                      "type": "string"
+                    },
+                    "ErrorIndicationreturnedforsymbolchangedinvalid": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ErrorIndicationreturnedforsymbolchangedinvalid",
+                      "type": "null"
+                    },
+                    "EPSEstimateCurrentYear": {
+                      "id": "http://jsonschema.net/query/results/quote/1/EPSEstimateCurrentYear",
+                      "type": "string"
+                    },
+                    "EPSEstimateNextYear": {
+                      "id": "http://jsonschema.net/query/results/quote/1/EPSEstimateNextYear",
+                      "type": "string"
+                    },
+                    "EPSEstimateNextQuarter": {
+                      "id": "http://jsonschema.net/query/results/quote/1/EPSEstimateNextQuarter",
+                      "type": "string"
+                    },
+                    "DaysLow": {
+                      "id": "http://jsonschema.net/query/results/quote/1/DaysLow",
+                      "type": "string"
+                    },
+                    "DaysHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/1/DaysHigh",
+                      "type": "string"
+                    },
+                    "YearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/1/YearLow",
+                      "type": "string"
+                    },
+                    "YearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/1/YearHigh",
+                      "type": "string"
+                    },
+                    "HoldingsGainPercent": {
+                      "id": "http://jsonschema.net/query/results/quote/1/HoldingsGainPercent",
+                      "type": "null"
+                    },
+                    "AnnualizedGain": {
+                      "id": "http://jsonschema.net/query/results/quote/1/AnnualizedGain",
+                      "type": "null"
+                    },
+                    "HoldingsGain": {
+                      "id": "http://jsonschema.net/query/results/quote/1/HoldingsGain",
+                      "type": "null"
+                    },
+                    "HoldingsGainPercentRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/HoldingsGainPercentRealtime",
+                      "type": "null"
+                    },
+                    "HoldingsGainRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/HoldingsGainRealtime",
+                      "type": "null"
+                    },
+                    "MoreInfo": {
+                      "id": "http://jsonschema.net/query/results/quote/1/MoreInfo",
+                      "type": "null"
+                    },
+                    "OrderBookRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/OrderBookRealtime",
+                      "type": "null"
+                    },
+                    "MarketCapitalization": {
+                      "id": "http://jsonschema.net/query/results/quote/1/MarketCapitalization",
+                      "type": "string"
+                    },
+                    "MarketCapRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/MarketCapRealtime",
+                      "type": "null"
+                    },
+                    "EBITDA": {
+                      "id": "http://jsonschema.net/query/results/quote/1/EBITDA",
+                      "type": "string"
+                    },
+                    "ChangeFromYearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ChangeFromYearLow",
+                      "type": "string"
+                    },
+                    "PercentChangeFromYearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PercentChangeFromYearLow",
+                      "type": "string"
+                    },
+                    "LastTradeRealtimeWithTime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/LastTradeRealtimeWithTime",
+                      "type": "null"
+                    },
+                    "ChangePercentRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ChangePercentRealtime",
+                      "type": "null"
+                    },
+                    "ChangeFromYearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ChangeFromYearHigh",
+                      "type": "string"
+                    },
+                    "PercebtChangeFromYearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PercebtChangeFromYearHigh",
+                      "type": "string"
+                    },
+                    "LastTradeWithTime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/LastTradeWithTime",
+                      "type": "string"
+                    },
+                    "LastTradePriceOnly": {
+                      "id": "http://jsonschema.net/query/results/quote/1/LastTradePriceOnly",
+                      "type": "string"
+                    },
+                    "HighLimit": {
+                      "id": "http://jsonschema.net/query/results/quote/1/HighLimit",
+                      "type": "null"
+                    },
+                    "LowLimit": {
+                      "id": "http://jsonschema.net/query/results/quote/1/LowLimit",
+                      "type": "null"
+                    },
+                    "DaysRange": {
+                      "id": "http://jsonschema.net/query/results/quote/1/DaysRange",
+                      "type": "string"
+                    },
+                    "DaysRangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/DaysRangeRealtime",
+                      "type": "null"
+                    },
+                    "FiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/1/FiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "TwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/1/TwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "ChangeFromTwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ChangeFromTwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "PercentChangeFromTwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PercentChangeFromTwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "ChangeFromFiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ChangeFromFiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "PercentChangeFromFiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PercentChangeFromFiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "Name": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Name",
+                      "type": "string"
+                    },
+                    "Notes": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Notes",
+                      "type": "null"
+                    },
+                    "Open": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Open",
+                      "type": "string"
+                    },
+                    "PreviousClose": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PreviousClose",
+                      "type": "string"
+                    },
+                    "PricePaid": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PricePaid",
+                      "type": "null"
+                    },
+                    "ChangeinPercent": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ChangeinPercent",
+                      "type": "string"
+                    },
+                    "PriceSales": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PriceSales",
+                      "type": "string"
+                    },
+                    "PriceBook": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PriceBook",
+                      "type": "string"
+                    },
+                    "ExDividendDate": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ExDividendDate",
+                      "type": "string"
+                    },
+                    "PERatio": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PERatio",
+                      "type": "string"
+                    },
+                    "DividendPayDate": {
+                      "id": "http://jsonschema.net/query/results/quote/1/DividendPayDate",
+                      "type": "string"
+                    },
+                    "PERatioRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PERatioRealtime",
+                      "type": "null"
+                    },
+                    "PEGRatio": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PEGRatio",
+                      "type": "string"
+                    },
+                    "PriceEPSEstimateCurrentYear": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PriceEPSEstimateCurrentYear",
+                      "type": "string"
+                    },
+                    "PriceEPSEstimateNextYear": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PriceEPSEstimateNextYear",
+                      "type": "string"
+                    },
+                    "Symbol": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Symbol",
+                      "type": "string"
+                    },
+                    "SharesOwned": {
+                      "id": "http://jsonschema.net/query/results/quote/1/SharesOwned",
+                      "type": "null"
+                    },
+                    "ShortRatio": {
+                      "id": "http://jsonschema.net/query/results/quote/1/ShortRatio",
+                      "type": "string"
+                    },
+                    "LastTradeTime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/LastTradeTime",
+                      "type": "string"
+                    },
+                    "TickerTrend": {
+                      "id": "http://jsonschema.net/query/results/quote/1/TickerTrend",
+                      "type": "null"
+                    },
+                    "OneyrTargetPrice": {
+                      "id": "http://jsonschema.net/query/results/quote/1/OneyrTargetPrice",
+                      "type": "string"
+                    },
+                    "Volume": {
+                      "id": "http://jsonschema.net/query/results/quote/1/Volume",
+                      "type": "string"
+                    },
+                    "HoldingsValue": {
+                      "id": "http://jsonschema.net/query/results/quote/1/HoldingsValue",
+                      "type": "null"
+                    },
+                    "HoldingsValueRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/HoldingsValueRealtime",
+                      "type": "null"
+                    },
+                    "YearRange": {
+                      "id": "http://jsonschema.net/query/results/quote/1/YearRange",
+                      "type": "string"
+                    },
+                    "DaysValueChange": {
+                      "id": "http://jsonschema.net/query/results/quote/1/DaysValueChange",
+                      "type": "null"
+                    },
+                    "DaysValueChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/1/DaysValueChangeRealtime",
+                      "type": "null"
+                    },
+                    "StockExchange": {
+                      "id": "http://jsonschema.net/query/results/quote/1/StockExchange",
+                      "type": "string"
+                    },
+                    "DividendYield": {
+                      "id": "http://jsonschema.net/query/results/quote/1/DividendYield",
+                      "type": "string"
+                    },
+                    "PercentChange": {
+                      "id": "http://jsonschema.net/query/results/quote/1/PercentChange",
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "id": "http://jsonschema.net/query/results/quote/2",
+                  "type": "object",
+                  "properties": {
+                    "symbol": {
+                      "id": "http://jsonschema.net/query/results/quote/2/symbol",
+                      "type": "string"
+                    },
+                    "Ask": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Ask",
+                      "type": "string"
+                    },
+                    "AverageDailyVolume": {
+                      "id": "http://jsonschema.net/query/results/quote/2/AverageDailyVolume",
+                      "type": "string"
+                    },
+                    "Bid": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Bid",
+                      "type": "string"
+                    },
+                    "AskRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/AskRealtime",
+                      "type": "null"
+                    },
+                    "BidRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/BidRealtime",
+                      "type": "null"
+                    },
+                    "BookValue": {
+                      "id": "http://jsonschema.net/query/results/quote/2/BookValue",
+                      "type": "string"
+                    },
+                    "Change_PercentChange": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Change_PercentChange",
+                      "type": "string"
+                    },
+                    "Change": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Change",
+                      "type": "string"
+                    },
+                    "Commission": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Commission",
+                      "type": "null"
+                    },
+                    "Currency": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Currency",
+                      "type": "string"
+                    },
+                    "ChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ChangeRealtime",
+                      "type": "null"
+                    },
+                    "AfterHoursChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/AfterHoursChangeRealtime",
+                      "type": "null"
+                    },
+                    "DividendShare": {
+                      "id": "http://jsonschema.net/query/results/quote/2/DividendShare",
+                      "type": "null"
+                    },
+                    "LastTradeDate": {
+                      "id": "http://jsonschema.net/query/results/quote/2/LastTradeDate",
+                      "type": "string"
+                    },
+                    "TradeDate": {
+                      "id": "http://jsonschema.net/query/results/quote/2/TradeDate",
+                      "type": "null"
+                    },
+                    "EarningsShare": {
+                      "id": "http://jsonschema.net/query/results/quote/2/EarningsShare",
+                      "type": "string"
+                    },
+                    "ErrorIndicationreturnedforsymbolchangedinvalid": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ErrorIndicationreturnedforsymbolchangedinvalid",
+                      "type": "null"
+                    },
+                    "EPSEstimateCurrentYear": {
+                      "id": "http://jsonschema.net/query/results/quote/2/EPSEstimateCurrentYear",
+                      "type": "string"
+                    },
+                    "EPSEstimateNextYear": {
+                      "id": "http://jsonschema.net/query/results/quote/2/EPSEstimateNextYear",
+                      "type": "string"
+                    },
+                    "EPSEstimateNextQuarter": {
+                      "id": "http://jsonschema.net/query/results/quote/2/EPSEstimateNextQuarter",
+                      "type": "string"
+                    },
+                    "DaysLow": {
+                      "id": "http://jsonschema.net/query/results/quote/2/DaysLow",
+                      "type": "string"
+                    },
+                    "DaysHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/2/DaysHigh",
+                      "type": "string"
+                    },
+                    "YearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/2/YearLow",
+                      "type": "string"
+                    },
+                    "YearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/2/YearHigh",
+                      "type": "string"
+                    },
+                    "HoldingsGainPercent": {
+                      "id": "http://jsonschema.net/query/results/quote/2/HoldingsGainPercent",
+                      "type": "null"
+                    },
+                    "AnnualizedGain": {
+                      "id": "http://jsonschema.net/query/results/quote/2/AnnualizedGain",
+                      "type": "null"
+                    },
+                    "HoldingsGain": {
+                      "id": "http://jsonschema.net/query/results/quote/2/HoldingsGain",
+                      "type": "null"
+                    },
+                    "HoldingsGainPercentRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/HoldingsGainPercentRealtime",
+                      "type": "null"
+                    },
+                    "HoldingsGainRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/HoldingsGainRealtime",
+                      "type": "null"
+                    },
+                    "MoreInfo": {
+                      "id": "http://jsonschema.net/query/results/quote/2/MoreInfo",
+                      "type": "null"
+                    },
+                    "OrderBookRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/OrderBookRealtime",
+                      "type": "null"
+                    },
+                    "MarketCapitalization": {
+                      "id": "http://jsonschema.net/query/results/quote/2/MarketCapitalization",
+                      "type": "string"
+                    },
+                    "MarketCapRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/MarketCapRealtime",
+                      "type": "null"
+                    },
+                    "EBITDA": {
+                      "id": "http://jsonschema.net/query/results/quote/2/EBITDA",
+                      "type": "string"
+                    },
+                    "ChangeFromYearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ChangeFromYearLow",
+                      "type": "string"
+                    },
+                    "PercentChangeFromYearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PercentChangeFromYearLow",
+                      "type": "string"
+                    },
+                    "LastTradeRealtimeWithTime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/LastTradeRealtimeWithTime",
+                      "type": "null"
+                    },
+                    "ChangePercentRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ChangePercentRealtime",
+                      "type": "null"
+                    },
+                    "ChangeFromYearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ChangeFromYearHigh",
+                      "type": "string"
+                    },
+                    "PercebtChangeFromYearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PercebtChangeFromYearHigh",
+                      "type": "string"
+                    },
+                    "LastTradeWithTime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/LastTradeWithTime",
+                      "type": "string"
+                    },
+                    "LastTradePriceOnly": {
+                      "id": "http://jsonschema.net/query/results/quote/2/LastTradePriceOnly",
+                      "type": "string"
+                    },
+                    "HighLimit": {
+                      "id": "http://jsonschema.net/query/results/quote/2/HighLimit",
+                      "type": "null"
+                    },
+                    "LowLimit": {
+                      "id": "http://jsonschema.net/query/results/quote/2/LowLimit",
+                      "type": "null"
+                    },
+                    "DaysRange": {
+                      "id": "http://jsonschema.net/query/results/quote/2/DaysRange",
+                      "type": "string"
+                    },
+                    "DaysRangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/DaysRangeRealtime",
+                      "type": "null"
+                    },
+                    "FiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/2/FiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "TwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/2/TwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "ChangeFromTwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ChangeFromTwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "PercentChangeFromTwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PercentChangeFromTwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "ChangeFromFiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ChangeFromFiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "PercentChangeFromFiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PercentChangeFromFiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "Name": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Name",
+                      "type": "string"
+                    },
+                    "Notes": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Notes",
+                      "type": "null"
+                    },
+                    "Open": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Open",
+                      "type": "string"
+                    },
+                    "PreviousClose": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PreviousClose",
+                      "type": "string"
+                    },
+                    "PricePaid": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PricePaid",
+                      "type": "null"
+                    },
+                    "ChangeinPercent": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ChangeinPercent",
+                      "type": "string"
+                    },
+                    "PriceSales": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PriceSales",
+                      "type": "string"
+                    },
+                    "PriceBook": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PriceBook",
+                      "type": "string"
+                    },
+                    "ExDividendDate": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ExDividendDate",
+                      "type": "null"
+                    },
+                    "PERatio": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PERatio",
+                      "type": "string"
+                    },
+                    "DividendPayDate": {
+                      "id": "http://jsonschema.net/query/results/quote/2/DividendPayDate",
+                      "type": "null"
+                    },
+                    "PERatioRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PERatioRealtime",
+                      "type": "null"
+                    },
+                    "PEGRatio": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PEGRatio",
+                      "type": "string"
+                    },
+                    "PriceEPSEstimateCurrentYear": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PriceEPSEstimateCurrentYear",
+                      "type": "null"
+                    },
+                    "PriceEPSEstimateNextYear": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PriceEPSEstimateNextYear",
+                      "type": "null"
+                    },
+                    "Symbol": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Symbol",
+                      "type": "string"
+                    },
+                    "SharesOwned": {
+                      "id": "http://jsonschema.net/query/results/quote/2/SharesOwned",
+                      "type": "null"
+                    },
+                    "ShortRatio": {
+                      "id": "http://jsonschema.net/query/results/quote/2/ShortRatio",
+                      "type": "string"
+                    },
+                    "LastTradeTime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/LastTradeTime",
+                      "type": "string"
+                    },
+                    "TickerTrend": {
+                      "id": "http://jsonschema.net/query/results/quote/2/TickerTrend",
+                      "type": "null"
+                    },
+                    "OneyrTargetPrice": {
+                      "id": "http://jsonschema.net/query/results/quote/2/OneyrTargetPrice",
+                      "type": "string"
+                    },
+                    "Volume": {
+                      "id": "http://jsonschema.net/query/results/quote/2/Volume",
+                      "type": "string"
+                    },
+                    "HoldingsValue": {
+                      "id": "http://jsonschema.net/query/results/quote/2/HoldingsValue",
+                      "type": "null"
+                    },
+                    "HoldingsValueRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/HoldingsValueRealtime",
+                      "type": "null"
+                    },
+                    "YearRange": {
+                      "id": "http://jsonschema.net/query/results/quote/2/YearRange",
+                      "type": "string"
+                    },
+                    "DaysValueChange": {
+                      "id": "http://jsonschema.net/query/results/quote/2/DaysValueChange",
+                      "type": "null"
+                    },
+                    "DaysValueChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/2/DaysValueChangeRealtime",
+                      "type": "null"
+                    },
+                    "StockExchange": {
+                      "id": "http://jsonschema.net/query/results/quote/2/StockExchange",
+                      "type": "string"
+                    },
+                    "DividendYield": {
+                      "id": "http://jsonschema.net/query/results/quote/2/DividendYield",
+                      "type": "null"
+                    },
+                    "PercentChange": {
+                      "id": "http://jsonschema.net/query/results/quote/2/PercentChange",
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "id": "http://jsonschema.net/query/results/quote/3",
+                  "type": "object",
+                  "properties": {
+                    "symbol": {
+                      "id": "http://jsonschema.net/query/results/quote/3/symbol",
+                      "type": "string"
+                    },
+                    "Ask": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Ask",
+                      "type": "string"
+                    },
+                    "AverageDailyVolume": {
+                      "id": "http://jsonschema.net/query/results/quote/3/AverageDailyVolume",
+                      "type": "string"
+                    },
+                    "Bid": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Bid",
+                      "type": "string"
+                    },
+                    "AskRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/AskRealtime",
+                      "type": "null"
+                    },
+                    "BidRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/BidRealtime",
+                      "type": "null"
+                    },
+                    "BookValue": {
+                      "id": "http://jsonschema.net/query/results/quote/3/BookValue",
+                      "type": "string"
+                    },
+                    "Change_PercentChange": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Change_PercentChange",
+                      "type": "string"
+                    },
+                    "Change": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Change",
+                      "type": "string"
+                    },
+                    "Commission": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Commission",
+                      "type": "null"
+                    },
+                    "Currency": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Currency",
+                      "type": "string"
+                    },
+                    "ChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ChangeRealtime",
+                      "type": "null"
+                    },
+                    "AfterHoursChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/AfterHoursChangeRealtime",
+                      "type": "null"
+                    },
+                    "DividendShare": {
+                      "id": "http://jsonschema.net/query/results/quote/3/DividendShare",
+                      "type": "string"
+                    },
+                    "LastTradeDate": {
+                      "id": "http://jsonschema.net/query/results/quote/3/LastTradeDate",
+                      "type": "string"
+                    },
+                    "TradeDate": {
+                      "id": "http://jsonschema.net/query/results/quote/3/TradeDate",
+                      "type": "null"
+                    },
+                    "EarningsShare": {
+                      "id": "http://jsonschema.net/query/results/quote/3/EarningsShare",
+                      "type": "string"
+                    },
+                    "ErrorIndicationreturnedforsymbolchangedinvalid": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ErrorIndicationreturnedforsymbolchangedinvalid",
+                      "type": "null"
+                    },
+                    "EPSEstimateCurrentYear": {
+                      "id": "http://jsonschema.net/query/results/quote/3/EPSEstimateCurrentYear",
+                      "type": "string"
+                    },
+                    "EPSEstimateNextYear": {
+                      "id": "http://jsonschema.net/query/results/quote/3/EPSEstimateNextYear",
+                      "type": "string"
+                    },
+                    "EPSEstimateNextQuarter": {
+                      "id": "http://jsonschema.net/query/results/quote/3/EPSEstimateNextQuarter",
+                      "type": "string"
+                    },
+                    "DaysLow": {
+                      "id": "http://jsonschema.net/query/results/quote/3/DaysLow",
+                      "type": "string"
+                    },
+                    "DaysHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/3/DaysHigh",
+                      "type": "string"
+                    },
+                    "YearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/3/YearLow",
+                      "type": "string"
+                    },
+                    "YearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/3/YearHigh",
+                      "type": "string"
+                    },
+                    "HoldingsGainPercent": {
+                      "id": "http://jsonschema.net/query/results/quote/3/HoldingsGainPercent",
+                      "type": "null"
+                    },
+                    "AnnualizedGain": {
+                      "id": "http://jsonschema.net/query/results/quote/3/AnnualizedGain",
+                      "type": "null"
+                    },
+                    "HoldingsGain": {
+                      "id": "http://jsonschema.net/query/results/quote/3/HoldingsGain",
+                      "type": "null"
+                    },
+                    "HoldingsGainPercentRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/HoldingsGainPercentRealtime",
+                      "type": "null"
+                    },
+                    "HoldingsGainRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/HoldingsGainRealtime",
+                      "type": "null"
+                    },
+                    "MoreInfo": {
+                      "id": "http://jsonschema.net/query/results/quote/3/MoreInfo",
+                      "type": "null"
+                    },
+                    "OrderBookRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/OrderBookRealtime",
+                      "type": "null"
+                    },
+                    "MarketCapitalization": {
+                      "id": "http://jsonschema.net/query/results/quote/3/MarketCapitalization",
+                      "type": "string"
+                    },
+                    "MarketCapRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/MarketCapRealtime",
+                      "type": "null"
+                    },
+                    "EBITDA": {
+                      "id": "http://jsonschema.net/query/results/quote/3/EBITDA",
+                      "type": "string"
+                    },
+                    "ChangeFromYearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ChangeFromYearLow",
+                      "type": "string"
+                    },
+                    "PercentChangeFromYearLow": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PercentChangeFromYearLow",
+                      "type": "string"
+                    },
+                    "LastTradeRealtimeWithTime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/LastTradeRealtimeWithTime",
+                      "type": "null"
+                    },
+                    "ChangePercentRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ChangePercentRealtime",
+                      "type": "null"
+                    },
+                    "ChangeFromYearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ChangeFromYearHigh",
+                      "type": "string"
+                    },
+                    "PercebtChangeFromYearHigh": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PercebtChangeFromYearHigh",
+                      "type": "string"
+                    },
+                    "LastTradeWithTime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/LastTradeWithTime",
+                      "type": "string"
+                    },
+                    "LastTradePriceOnly": {
+                      "id": "http://jsonschema.net/query/results/quote/3/LastTradePriceOnly",
+                      "type": "string"
+                    },
+                    "HighLimit": {
+                      "id": "http://jsonschema.net/query/results/quote/3/HighLimit",
+                      "type": "null"
+                    },
+                    "LowLimit": {
+                      "id": "http://jsonschema.net/query/results/quote/3/LowLimit",
+                      "type": "null"
+                    },
+                    "DaysRange": {
+                      "id": "http://jsonschema.net/query/results/quote/3/DaysRange",
+                      "type": "string"
+                    },
+                    "DaysRangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/DaysRangeRealtime",
+                      "type": "null"
+                    },
+                    "FiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/3/FiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "TwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/3/TwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "ChangeFromTwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ChangeFromTwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "PercentChangeFromTwoHundreddayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PercentChangeFromTwoHundreddayMovingAverage",
+                      "type": "string"
+                    },
+                    "ChangeFromFiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ChangeFromFiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "PercentChangeFromFiftydayMovingAverage": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PercentChangeFromFiftydayMovingAverage",
+                      "type": "string"
+                    },
+                    "Name": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Name",
+                      "type": "string"
+                    },
+                    "Notes": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Notes",
+                      "type": "null"
+                    },
+                    "Open": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Open",
+                      "type": "string"
+                    },
+                    "PreviousClose": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PreviousClose",
+                      "type": "string"
+                    },
+                    "PricePaid": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PricePaid",
+                      "type": "null"
+                    },
+                    "ChangeinPercent": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ChangeinPercent",
+                      "type": "string"
+                    },
+                    "PriceSales": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PriceSales",
+                      "type": "string"
+                    },
+                    "PriceBook": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PriceBook",
+                      "type": "string"
+                    },
+                    "ExDividendDate": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ExDividendDate",
+                      "type": "string"
+                    },
+                    "PERatio": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PERatio",
+                      "type": "string"
+                    },
+                    "DividendPayDate": {
+                      "id": "http://jsonschema.net/query/results/quote/3/DividendPayDate",
+                      "type": "string"
+                    },
+                    "PERatioRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PERatioRealtime",
+                      "type": "null"
+                    },
+                    "PEGRatio": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PEGRatio",
+                      "type": "string"
+                    },
+                    "PriceEPSEstimateCurrentYear": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PriceEPSEstimateCurrentYear",
+                      "type": "string"
+                    },
+                    "PriceEPSEstimateNextYear": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PriceEPSEstimateNextYear",
+                      "type": "string"
+                    },
+                    "Symbol": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Symbol",
+                      "type": "string"
+                    },
+                    "SharesOwned": {
+                      "id": "http://jsonschema.net/query/results/quote/3/SharesOwned",
+                      "type": "null"
+                    },
+                    "ShortRatio": {
+                      "id": "http://jsonschema.net/query/results/quote/3/ShortRatio",
+                      "type": "string"
+                    },
+                    "LastTradeTime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/LastTradeTime",
+                      "type": "string"
+                    },
+                    "TickerTrend": {
+                      "id": "http://jsonschema.net/query/results/quote/3/TickerTrend",
+                      "type": "null"
+                    },
+                    "OneyrTargetPrice": {
+                      "id": "http://jsonschema.net/query/results/quote/3/OneyrTargetPrice",
+                      "type": "string"
+                    },
+                    "Volume": {
+                      "id": "http://jsonschema.net/query/results/quote/3/Volume",
+                      "type": "string"
+                    },
+                    "HoldingsValue": {
+                      "id": "http://jsonschema.net/query/results/quote/3/HoldingsValue",
+                      "type": "null"
+                    },
+                    "HoldingsValueRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/HoldingsValueRealtime",
+                      "type": "null"
+                    },
+                    "YearRange": {
+                      "id": "http://jsonschema.net/query/results/quote/3/YearRange",
+                      "type": "string"
+                    },
+                    "DaysValueChange": {
+                      "id": "http://jsonschema.net/query/results/quote/3/DaysValueChange",
+                      "type": "null"
+                    },
+                    "DaysValueChangeRealtime": {
+                      "id": "http://jsonschema.net/query/results/quote/3/DaysValueChangeRealtime",
+                      "type": "null"
+                    },
+                    "StockExchange": {
+                      "id": "http://jsonschema.net/query/results/quote/3/StockExchange",
+                      "type": "string"
+                    },
+                    "DividendYield": {
+                      "id": "http://jsonschema.net/query/results/quote/3/DividendYield",
+                      "type": "string"
+                    },
+                    "PercentChange": {
+                      "id": "http://jsonschema.net/query/results/quote/3/PercentChange",
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "required": [
+        "count",
+        "created",
+        "lang",
+        "results"
+      ]
+    }
+  },
+  "required": [
+    "query"
+  ]
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd 
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+		
+
+	<context:component-scan base-package="no.bouvet.stockanalyzer" />
+	<task:annotation-driven/>
+    <mvc:resources mapping="/**" location="/"/>
+    <mvc:default-servlet-handler/>
+
+    <bean class="com.mangofactory.swagger.configuration.SpringSwaggerConfig" />
+
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+	</bean>
+
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+		<property name="ignoreResourceNotFound" value="true" />
+		<property name="locations">
+			<list> <!-- hver fil overskriver tidligere filer -->
+				<value>classpath:stock-analyzer-default.properties</value>
+				<!--<value>classpath:no.bouvet.stockanalyzeralyzer-local.properties</value> &lt;!&ndash; local.properties må ikke i source repo! &ndash;&gt;-->
+			</list>
+		</property>
+	</bean>
+
+	<!--<task:scheduled-tasks scheduler="scheduler">
+
+        &lt;!&ndash; run once at startup (every 3e8 years) &ndash;&gt;
+        <task:scheduled ref="SomeService" method="someMethod" fixed-rate="#{ T(java.lang.Long).MAX_VALUE }" />
+        <task:scheduled ref="SomeService" method="someMethod" cron="${someService.cron}" />
+
+	</task:scheduled-tasks>
+	<task:scheduler id="scheduler" pool-size="10"/>-->
+</beans>

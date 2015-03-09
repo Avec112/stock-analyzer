@@ -1,0 +1,2743 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "",
+  "type": "object",
+  "properties": {
+    "query": {
+      "id": "/query",
+      "type": "object",
+      "properties": {
+        "count": {
+          "id": "/query/count",
+          "type": "integer"
+        },
+        "created": {
+          "id": "/query/created",
+          "type": "string"
+        },
+        "lang": {
+          "id": "/query/lang",
+          "type": "string"
+        },
+        "results": {
+          "id": "/query/results",
+          "type": "object",
+          "properties": {
+            "incomestatement": {
+              "id": "/query/results/incomestatement",
+              "type": "array",
+              "items": [
+                {
+                  "id": "/query/results/incomestatement/0",
+                  "type": "object",
+                  "properties": {
+                    "symbol": {
+                      "id": "/query/results/incomestatement/0/symbol",
+                      "type": "string"
+                    },
+                    "timeframe": {
+                      "id": "/query/results/incomestatement/0/timeframe",
+                      "type": "string"
+                    },
+                    "statement": {
+                      "id": "/query/results/incomestatement/0/statement",
+                      "type": "array",
+                      "items": [
+                        {
+                          "id": "/query/results/incomestatement/0/statement/0",
+                          "type": "object",
+                          "properties": {
+                            "period": {
+                              "id": "/query/results/incomestatement/0/statement/0/period",
+                              "type": "string"
+                            },
+                            "TotalRevenue": {
+                              "id": "/query/results/incomestatement/0/statement/0/TotalRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/TotalRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/TotalRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "CostofRevenue": {
+                              "id": "/query/results/incomestatement/0/statement/0/CostofRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/CostofRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/CostofRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "GrossProfit": {
+                              "id": "/query/results/incomestatement/0/statement/0/GrossProfit",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/GrossProfit/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/GrossProfit/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ResearchDevelopment": {
+                              "id": "/query/results/incomestatement/0/statement/0/ResearchDevelopment",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/ResearchDevelopment/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/ResearchDevelopment/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "SellingGeneralandAdministrative": {
+                              "id": "/query/results/incomestatement/0/statement/0/SellingGeneralandAdministrative",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/SellingGeneralandAdministrative/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/SellingGeneralandAdministrative/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NonRecurring": {
+                              "id": "/query/results/incomestatement/0/statement/0/NonRecurring",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/NonRecurring/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/NonRecurring/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "Others": {
+                              "id": "/query/results/incomestatement/0/statement/0/Others",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/Others/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/Others/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOperatingExpenses": {
+                              "id": "/query/results/incomestatement/0/statement/0/TotalOperatingExpenses",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/TotalOperatingExpenses/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/TotalOperatingExpenses/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OperatingIncomeorLoss": {
+                              "id": "/query/results/incomestatement/0/statement/0/OperatingIncomeorLoss",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/OperatingIncomeorLoss/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/OperatingIncomeorLoss/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                              "id": "/query/results/incomestatement/0/statement/0/TotalOtherIncome_ExpensesNet",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/TotalOtherIncome_ExpensesNet/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/TotalOtherIncome_ExpensesNet/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                              "id": "/query/results/incomestatement/0/statement/0/EarningsBeforeInterestAndTaxes",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/EarningsBeforeInterestAndTaxes/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/EarningsBeforeInterestAndTaxes/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "InterestExpense": {
+                              "id": "/query/results/incomestatement/0/statement/0/InterestExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/InterestExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/InterestExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeBeforeTax": {
+                              "id": "/query/results/incomestatement/0/statement/0/IncomeBeforeTax",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/IncomeBeforeTax/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/IncomeBeforeTax/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeTaxExpense": {
+                              "id": "/query/results/incomestatement/0/statement/0/IncomeTaxExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/IncomeTaxExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/IncomeTaxExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "MinorityInterest": {
+                              "id": "/query/results/incomestatement/0/statement/0/MinorityInterest",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/MinorityInterest/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/MinorityInterest/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeFromContinuingOps": {
+                              "id": "/query/results/incomestatement/0/statement/0/NetIncomeFromContinuingOps",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/NetIncomeFromContinuingOps/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/NetIncomeFromContinuingOps/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "DiscontinuedOperations": {
+                              "id": "/query/results/incomestatement/0/statement/0/DiscontinuedOperations",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/DiscontinuedOperations/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/DiscontinuedOperations/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ExtraordinaryItems": {
+                              "id": "/query/results/incomestatement/0/statement/0/ExtraordinaryItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/ExtraordinaryItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/ExtraordinaryItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EffectOfAccountingChanges": {
+                              "id": "/query/results/incomestatement/0/statement/0/EffectOfAccountingChanges",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/EffectOfAccountingChanges/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/EffectOfAccountingChanges/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OtherItems": {
+                              "id": "/query/results/incomestatement/0/statement/0/OtherItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/OtherItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/OtherItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncome": {
+                              "id": "/query/results/incomestatement/0/statement/0/NetIncome",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/NetIncome/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/NetIncome/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                              "id": "/query/results/incomestatement/0/statement/0/PreferredStockAndOtherAdjustments",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/PreferredStockAndOtherAdjustments/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/PreferredStockAndOtherAdjustments/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                              "id": "/query/results/incomestatement/0/statement/0/NetIncomeApplicableToCommonShares",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/0/NetIncomeApplicableToCommonShares/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/0/NetIncomeApplicableToCommonShares/content",
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "/query/results/incomestatement/0/statement/1",
+                          "type": "object",
+                          "properties": {
+                            "period": {
+                              "id": "/query/results/incomestatement/0/statement/1/period",
+                              "type": "string"
+                            },
+                            "TotalRevenue": {
+                              "id": "/query/results/incomestatement/0/statement/1/TotalRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/TotalRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/TotalRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "CostofRevenue": {
+                              "id": "/query/results/incomestatement/0/statement/1/CostofRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/CostofRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/CostofRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "GrossProfit": {
+                              "id": "/query/results/incomestatement/0/statement/1/GrossProfit",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/GrossProfit/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/GrossProfit/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ResearchDevelopment": {
+                              "id": "/query/results/incomestatement/0/statement/1/ResearchDevelopment",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/ResearchDevelopment/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/ResearchDevelopment/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "SellingGeneralandAdministrative": {
+                              "id": "/query/results/incomestatement/0/statement/1/SellingGeneralandAdministrative",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/SellingGeneralandAdministrative/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/SellingGeneralandAdministrative/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NonRecurring": {
+                              "id": "/query/results/incomestatement/0/statement/1/NonRecurring",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/NonRecurring/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/NonRecurring/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "Others": {
+                              "id": "/query/results/incomestatement/0/statement/1/Others",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/Others/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/Others/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOperatingExpenses": {
+                              "id": "/query/results/incomestatement/0/statement/1/TotalOperatingExpenses",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/TotalOperatingExpenses/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/TotalOperatingExpenses/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OperatingIncomeorLoss": {
+                              "id": "/query/results/incomestatement/0/statement/1/OperatingIncomeorLoss",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/OperatingIncomeorLoss/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/OperatingIncomeorLoss/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                              "id": "/query/results/incomestatement/0/statement/1/TotalOtherIncome_ExpensesNet",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/TotalOtherIncome_ExpensesNet/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/TotalOtherIncome_ExpensesNet/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                              "id": "/query/results/incomestatement/0/statement/1/EarningsBeforeInterestAndTaxes",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/EarningsBeforeInterestAndTaxes/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/EarningsBeforeInterestAndTaxes/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "InterestExpense": {
+                              "id": "/query/results/incomestatement/0/statement/1/InterestExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/InterestExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/InterestExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeBeforeTax": {
+                              "id": "/query/results/incomestatement/0/statement/1/IncomeBeforeTax",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/IncomeBeforeTax/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/IncomeBeforeTax/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeTaxExpense": {
+                              "id": "/query/results/incomestatement/0/statement/1/IncomeTaxExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/IncomeTaxExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/IncomeTaxExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "MinorityInterest": {
+                              "id": "/query/results/incomestatement/0/statement/1/MinorityInterest",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/MinorityInterest/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/MinorityInterest/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeFromContinuingOps": {
+                              "id": "/query/results/incomestatement/0/statement/1/NetIncomeFromContinuingOps",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/NetIncomeFromContinuingOps/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/NetIncomeFromContinuingOps/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "DiscontinuedOperations": {
+                              "id": "/query/results/incomestatement/0/statement/1/DiscontinuedOperations",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/DiscontinuedOperations/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/DiscontinuedOperations/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ExtraordinaryItems": {
+                              "id": "/query/results/incomestatement/0/statement/1/ExtraordinaryItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/ExtraordinaryItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/ExtraordinaryItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EffectOfAccountingChanges": {
+                              "id": "/query/results/incomestatement/0/statement/1/EffectOfAccountingChanges",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/EffectOfAccountingChanges/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/EffectOfAccountingChanges/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OtherItems": {
+                              "id": "/query/results/incomestatement/0/statement/1/OtherItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/OtherItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/OtherItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncome": {
+                              "id": "/query/results/incomestatement/0/statement/1/NetIncome",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/NetIncome/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/NetIncome/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                              "id": "/query/results/incomestatement/0/statement/1/PreferredStockAndOtherAdjustments",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/PreferredStockAndOtherAdjustments/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/PreferredStockAndOtherAdjustments/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                              "id": "/query/results/incomestatement/0/statement/1/NetIncomeApplicableToCommonShares",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/1/NetIncomeApplicableToCommonShares/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/1/NetIncomeApplicableToCommonShares/content",
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "/query/results/incomestatement/0/statement/2",
+                          "type": "object",
+                          "properties": {
+                            "period": {
+                              "id": "/query/results/incomestatement/0/statement/2/period",
+                              "type": "string"
+                            },
+                            "TotalRevenue": {
+                              "id": "/query/results/incomestatement/0/statement/2/TotalRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/TotalRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/TotalRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "CostofRevenue": {
+                              "id": "/query/results/incomestatement/0/statement/2/CostofRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/CostofRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/CostofRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "GrossProfit": {
+                              "id": "/query/results/incomestatement/0/statement/2/GrossProfit",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/GrossProfit/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/GrossProfit/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ResearchDevelopment": {
+                              "id": "/query/results/incomestatement/0/statement/2/ResearchDevelopment",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/ResearchDevelopment/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/ResearchDevelopment/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "SellingGeneralandAdministrative": {
+                              "id": "/query/results/incomestatement/0/statement/2/SellingGeneralandAdministrative",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/SellingGeneralandAdministrative/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/SellingGeneralandAdministrative/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NonRecurring": {
+                              "id": "/query/results/incomestatement/0/statement/2/NonRecurring",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/NonRecurring/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/NonRecurring/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "Others": {
+                              "id": "/query/results/incomestatement/0/statement/2/Others",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/Others/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/Others/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOperatingExpenses": {
+                              "id": "/query/results/incomestatement/0/statement/2/TotalOperatingExpenses",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/TotalOperatingExpenses/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/TotalOperatingExpenses/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OperatingIncomeorLoss": {
+                              "id": "/query/results/incomestatement/0/statement/2/OperatingIncomeorLoss",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/OperatingIncomeorLoss/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/OperatingIncomeorLoss/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                              "id": "/query/results/incomestatement/0/statement/2/TotalOtherIncome_ExpensesNet",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/TotalOtherIncome_ExpensesNet/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/TotalOtherIncome_ExpensesNet/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                              "id": "/query/results/incomestatement/0/statement/2/EarningsBeforeInterestAndTaxes",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/EarningsBeforeInterestAndTaxes/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/EarningsBeforeInterestAndTaxes/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "InterestExpense": {
+                              "id": "/query/results/incomestatement/0/statement/2/InterestExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/InterestExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/InterestExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeBeforeTax": {
+                              "id": "/query/results/incomestatement/0/statement/2/IncomeBeforeTax",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/IncomeBeforeTax/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/IncomeBeforeTax/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeTaxExpense": {
+                              "id": "/query/results/incomestatement/0/statement/2/IncomeTaxExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/IncomeTaxExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/IncomeTaxExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "MinorityInterest": {
+                              "id": "/query/results/incomestatement/0/statement/2/MinorityInterest",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/MinorityInterest/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/MinorityInterest/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeFromContinuingOps": {
+                              "id": "/query/results/incomestatement/0/statement/2/NetIncomeFromContinuingOps",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/NetIncomeFromContinuingOps/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/NetIncomeFromContinuingOps/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "DiscontinuedOperations": {
+                              "id": "/query/results/incomestatement/0/statement/2/DiscontinuedOperations",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/DiscontinuedOperations/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/DiscontinuedOperations/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ExtraordinaryItems": {
+                              "id": "/query/results/incomestatement/0/statement/2/ExtraordinaryItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/ExtraordinaryItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/ExtraordinaryItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EffectOfAccountingChanges": {
+                              "id": "/query/results/incomestatement/0/statement/2/EffectOfAccountingChanges",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/EffectOfAccountingChanges/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/EffectOfAccountingChanges/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OtherItems": {
+                              "id": "/query/results/incomestatement/0/statement/2/OtherItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/OtherItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/OtherItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncome": {
+                              "id": "/query/results/incomestatement/0/statement/2/NetIncome",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/NetIncome/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/NetIncome/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                              "id": "/query/results/incomestatement/0/statement/2/PreferredStockAndOtherAdjustments",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/PreferredStockAndOtherAdjustments/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/PreferredStockAndOtherAdjustments/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                              "id": "/query/results/incomestatement/0/statement/2/NetIncomeApplicableToCommonShares",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/2/NetIncomeApplicableToCommonShares/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/2/NetIncomeApplicableToCommonShares/content",
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "/query/results/incomestatement/0/statement/3",
+                          "type": "object",
+                          "properties": {
+                            "period": {
+                              "id": "/query/results/incomestatement/0/statement/3/period",
+                              "type": "string"
+                            },
+                            "TotalRevenue": {
+                              "id": "/query/results/incomestatement/0/statement/3/TotalRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/TotalRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/TotalRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "CostofRevenue": {
+                              "id": "/query/results/incomestatement/0/statement/3/CostofRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/CostofRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/CostofRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "GrossProfit": {
+                              "id": "/query/results/incomestatement/0/statement/3/GrossProfit",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/GrossProfit/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/GrossProfit/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ResearchDevelopment": {
+                              "id": "/query/results/incomestatement/0/statement/3/ResearchDevelopment",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/ResearchDevelopment/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/ResearchDevelopment/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "SellingGeneralandAdministrative": {
+                              "id": "/query/results/incomestatement/0/statement/3/SellingGeneralandAdministrative",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/SellingGeneralandAdministrative/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/SellingGeneralandAdministrative/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NonRecurring": {
+                              "id": "/query/results/incomestatement/0/statement/3/NonRecurring",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/NonRecurring/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/NonRecurring/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "Others": {
+                              "id": "/query/results/incomestatement/0/statement/3/Others",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/Others/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/Others/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOperatingExpenses": {
+                              "id": "/query/results/incomestatement/0/statement/3/TotalOperatingExpenses",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/TotalOperatingExpenses/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/TotalOperatingExpenses/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OperatingIncomeorLoss": {
+                              "id": "/query/results/incomestatement/0/statement/3/OperatingIncomeorLoss",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/OperatingIncomeorLoss/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/OperatingIncomeorLoss/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                              "id": "/query/results/incomestatement/0/statement/3/TotalOtherIncome_ExpensesNet",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/TotalOtherIncome_ExpensesNet/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/TotalOtherIncome_ExpensesNet/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                              "id": "/query/results/incomestatement/0/statement/3/EarningsBeforeInterestAndTaxes",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/EarningsBeforeInterestAndTaxes/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/EarningsBeforeInterestAndTaxes/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "InterestExpense": {
+                              "id": "/query/results/incomestatement/0/statement/3/InterestExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/InterestExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/InterestExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeBeforeTax": {
+                              "id": "/query/results/incomestatement/0/statement/3/IncomeBeforeTax",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/IncomeBeforeTax/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/IncomeBeforeTax/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeTaxExpense": {
+                              "id": "/query/results/incomestatement/0/statement/3/IncomeTaxExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/IncomeTaxExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/IncomeTaxExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "MinorityInterest": {
+                              "id": "/query/results/incomestatement/0/statement/3/MinorityInterest",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/MinorityInterest/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/MinorityInterest/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeFromContinuingOps": {
+                              "id": "/query/results/incomestatement/0/statement/3/NetIncomeFromContinuingOps",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/NetIncomeFromContinuingOps/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/NetIncomeFromContinuingOps/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "DiscontinuedOperations": {
+                              "id": "/query/results/incomestatement/0/statement/3/DiscontinuedOperations",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/DiscontinuedOperations/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/DiscontinuedOperations/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ExtraordinaryItems": {
+                              "id": "/query/results/incomestatement/0/statement/3/ExtraordinaryItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/ExtraordinaryItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/ExtraordinaryItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EffectOfAccountingChanges": {
+                              "id": "/query/results/incomestatement/0/statement/3/EffectOfAccountingChanges",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/EffectOfAccountingChanges/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/EffectOfAccountingChanges/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OtherItems": {
+                              "id": "/query/results/incomestatement/0/statement/3/OtherItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/OtherItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/OtherItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncome": {
+                              "id": "/query/results/incomestatement/0/statement/3/NetIncome",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/NetIncome/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/NetIncome/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                              "id": "/query/results/incomestatement/0/statement/3/PreferredStockAndOtherAdjustments",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/PreferredStockAndOtherAdjustments/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/PreferredStockAndOtherAdjustments/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                              "id": "/query/results/incomestatement/0/statement/3/NetIncomeApplicableToCommonShares",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/0/statement/3/NetIncomeApplicableToCommonShares/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/0/statement/3/NetIncomeApplicableToCommonShares/content",
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "/query/results/incomestatement/1",
+                  "type": "object",
+                  "properties": {
+                    "symbol": {
+                      "id": "/query/results/incomestatement/1/symbol",
+                      "type": "string"
+                    },
+                    "timeframe": {
+                      "id": "/query/results/incomestatement/1/timeframe",
+                      "type": "string"
+                    },
+                    "statement": {
+                      "id": "/query/results/incomestatement/1/statement",
+                      "type": "array",
+                      "items": [
+                        {
+                          "id": "/query/results/incomestatement/1/statement/0",
+                          "type": "object",
+                          "properties": {
+                            "period": {
+                              "id": "/query/results/incomestatement/1/statement/0/period",
+                              "type": "string"
+                            },
+                            "TotalRevenue": {
+                              "id": "/query/results/incomestatement/1/statement/0/TotalRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/TotalRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/TotalRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "CostofRevenue": {
+                              "id": "/query/results/incomestatement/1/statement/0/CostofRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/CostofRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/CostofRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "GrossProfit": {
+                              "id": "/query/results/incomestatement/1/statement/0/GrossProfit",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/GrossProfit/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/GrossProfit/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ResearchDevelopment": {
+                              "id": "/query/results/incomestatement/1/statement/0/ResearchDevelopment",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/ResearchDevelopment/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/ResearchDevelopment/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "SellingGeneralandAdministrative": {
+                              "id": "/query/results/incomestatement/1/statement/0/SellingGeneralandAdministrative",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/SellingGeneralandAdministrative/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/SellingGeneralandAdministrative/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NonRecurring": {
+                              "id": "/query/results/incomestatement/1/statement/0/NonRecurring",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/NonRecurring/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/NonRecurring/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "Others": {
+                              "id": "/query/results/incomestatement/1/statement/0/Others",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/Others/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/Others/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOperatingExpenses": {
+                              "id": "/query/results/incomestatement/1/statement/0/TotalOperatingExpenses",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/TotalOperatingExpenses/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/TotalOperatingExpenses/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OperatingIncomeorLoss": {
+                              "id": "/query/results/incomestatement/1/statement/0/OperatingIncomeorLoss",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/OperatingIncomeorLoss/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/OperatingIncomeorLoss/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                              "id": "/query/results/incomestatement/1/statement/0/TotalOtherIncome_ExpensesNet",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/TotalOtherIncome_ExpensesNet/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/TotalOtherIncome_ExpensesNet/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                              "id": "/query/results/incomestatement/1/statement/0/EarningsBeforeInterestAndTaxes",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/EarningsBeforeInterestAndTaxes/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/EarningsBeforeInterestAndTaxes/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "InterestExpense": {
+                              "id": "/query/results/incomestatement/1/statement/0/InterestExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/InterestExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/InterestExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeBeforeTax": {
+                              "id": "/query/results/incomestatement/1/statement/0/IncomeBeforeTax",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/IncomeBeforeTax/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/IncomeBeforeTax/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeTaxExpense": {
+                              "id": "/query/results/incomestatement/1/statement/0/IncomeTaxExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/IncomeTaxExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/IncomeTaxExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "MinorityInterest": {
+                              "id": "/query/results/incomestatement/1/statement/0/MinorityInterest",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/MinorityInterest/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/MinorityInterest/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeFromContinuingOps": {
+                              "id": "/query/results/incomestatement/1/statement/0/NetIncomeFromContinuingOps",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/NetIncomeFromContinuingOps/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/NetIncomeFromContinuingOps/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "DiscontinuedOperations": {
+                              "id": "/query/results/incomestatement/1/statement/0/DiscontinuedOperations",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/DiscontinuedOperations/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/DiscontinuedOperations/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ExtraordinaryItems": {
+                              "id": "/query/results/incomestatement/1/statement/0/ExtraordinaryItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/ExtraordinaryItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/ExtraordinaryItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EffectOfAccountingChanges": {
+                              "id": "/query/results/incomestatement/1/statement/0/EffectOfAccountingChanges",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/EffectOfAccountingChanges/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/EffectOfAccountingChanges/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OtherItems": {
+                              "id": "/query/results/incomestatement/1/statement/0/OtherItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/OtherItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/OtherItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncome": {
+                              "id": "/query/results/incomestatement/1/statement/0/NetIncome",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/NetIncome/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/NetIncome/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                              "id": "/query/results/incomestatement/1/statement/0/PreferredStockAndOtherAdjustments",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/PreferredStockAndOtherAdjustments/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/PreferredStockAndOtherAdjustments/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                              "id": "/query/results/incomestatement/1/statement/0/NetIncomeApplicableToCommonShares",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/0/NetIncomeApplicableToCommonShares/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/0/NetIncomeApplicableToCommonShares/content",
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "/query/results/incomestatement/1/statement/1",
+                          "type": "object",
+                          "properties": {
+                            "period": {
+                              "id": "/query/results/incomestatement/1/statement/1/period",
+                              "type": "string"
+                            },
+                            "TotalRevenue": {
+                              "id": "/query/results/incomestatement/1/statement/1/TotalRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/TotalRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/TotalRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "CostofRevenue": {
+                              "id": "/query/results/incomestatement/1/statement/1/CostofRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/CostofRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/CostofRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "GrossProfit": {
+                              "id": "/query/results/incomestatement/1/statement/1/GrossProfit",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/GrossProfit/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/GrossProfit/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ResearchDevelopment": {
+                              "id": "/query/results/incomestatement/1/statement/1/ResearchDevelopment",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/ResearchDevelopment/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/ResearchDevelopment/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "SellingGeneralandAdministrative": {
+                              "id": "/query/results/incomestatement/1/statement/1/SellingGeneralandAdministrative",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/SellingGeneralandAdministrative/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/SellingGeneralandAdministrative/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NonRecurring": {
+                              "id": "/query/results/incomestatement/1/statement/1/NonRecurring",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/NonRecurring/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/NonRecurring/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "Others": {
+                              "id": "/query/results/incomestatement/1/statement/1/Others",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/Others/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/Others/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOperatingExpenses": {
+                              "id": "/query/results/incomestatement/1/statement/1/TotalOperatingExpenses",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/TotalOperatingExpenses/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/TotalOperatingExpenses/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OperatingIncomeorLoss": {
+                              "id": "/query/results/incomestatement/1/statement/1/OperatingIncomeorLoss",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/OperatingIncomeorLoss/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/OperatingIncomeorLoss/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                              "id": "/query/results/incomestatement/1/statement/1/TotalOtherIncome_ExpensesNet",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/TotalOtherIncome_ExpensesNet/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/TotalOtherIncome_ExpensesNet/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                              "id": "/query/results/incomestatement/1/statement/1/EarningsBeforeInterestAndTaxes",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/EarningsBeforeInterestAndTaxes/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/EarningsBeforeInterestAndTaxes/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "InterestExpense": {
+                              "id": "/query/results/incomestatement/1/statement/1/InterestExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/InterestExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/InterestExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeBeforeTax": {
+                              "id": "/query/results/incomestatement/1/statement/1/IncomeBeforeTax",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/IncomeBeforeTax/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/IncomeBeforeTax/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeTaxExpense": {
+                              "id": "/query/results/incomestatement/1/statement/1/IncomeTaxExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/IncomeTaxExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/IncomeTaxExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "MinorityInterest": {
+                              "id": "/query/results/incomestatement/1/statement/1/MinorityInterest",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/MinorityInterest/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/MinorityInterest/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeFromContinuingOps": {
+                              "id": "/query/results/incomestatement/1/statement/1/NetIncomeFromContinuingOps",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/NetIncomeFromContinuingOps/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/NetIncomeFromContinuingOps/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "DiscontinuedOperations": {
+                              "id": "/query/results/incomestatement/1/statement/1/DiscontinuedOperations",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/DiscontinuedOperations/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/DiscontinuedOperations/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ExtraordinaryItems": {
+                              "id": "/query/results/incomestatement/1/statement/1/ExtraordinaryItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/ExtraordinaryItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/ExtraordinaryItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EffectOfAccountingChanges": {
+                              "id": "/query/results/incomestatement/1/statement/1/EffectOfAccountingChanges",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/EffectOfAccountingChanges/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/EffectOfAccountingChanges/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OtherItems": {
+                              "id": "/query/results/incomestatement/1/statement/1/OtherItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/OtherItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/OtherItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncome": {
+                              "id": "/query/results/incomestatement/1/statement/1/NetIncome",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/NetIncome/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/NetIncome/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                              "id": "/query/results/incomestatement/1/statement/1/PreferredStockAndOtherAdjustments",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/PreferredStockAndOtherAdjustments/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/PreferredStockAndOtherAdjustments/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                              "id": "/query/results/incomestatement/1/statement/1/NetIncomeApplicableToCommonShares",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/1/NetIncomeApplicableToCommonShares/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/1/NetIncomeApplicableToCommonShares/content",
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "/query/results/incomestatement/1/statement/2",
+                          "type": "object",
+                          "properties": {
+                            "period": {
+                              "id": "/query/results/incomestatement/1/statement/2/period",
+                              "type": "string"
+                            },
+                            "TotalRevenue": {
+                              "id": "/query/results/incomestatement/1/statement/2/TotalRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/TotalRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/TotalRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "CostofRevenue": {
+                              "id": "/query/results/incomestatement/1/statement/2/CostofRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/CostofRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/CostofRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "GrossProfit": {
+                              "id": "/query/results/incomestatement/1/statement/2/GrossProfit",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/GrossProfit/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/GrossProfit/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ResearchDevelopment": {
+                              "id": "/query/results/incomestatement/1/statement/2/ResearchDevelopment",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/ResearchDevelopment/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/ResearchDevelopment/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "SellingGeneralandAdministrative": {
+                              "id": "/query/results/incomestatement/1/statement/2/SellingGeneralandAdministrative",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/SellingGeneralandAdministrative/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/SellingGeneralandAdministrative/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NonRecurring": {
+                              "id": "/query/results/incomestatement/1/statement/2/NonRecurring",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/NonRecurring/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/NonRecurring/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "Others": {
+                              "id": "/query/results/incomestatement/1/statement/2/Others",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/Others/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/Others/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOperatingExpenses": {
+                              "id": "/query/results/incomestatement/1/statement/2/TotalOperatingExpenses",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/TotalOperatingExpenses/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/TotalOperatingExpenses/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OperatingIncomeorLoss": {
+                              "id": "/query/results/incomestatement/1/statement/2/OperatingIncomeorLoss",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/OperatingIncomeorLoss/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/OperatingIncomeorLoss/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                              "id": "/query/results/incomestatement/1/statement/2/TotalOtherIncome_ExpensesNet",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/TotalOtherIncome_ExpensesNet/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/TotalOtherIncome_ExpensesNet/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                              "id": "/query/results/incomestatement/1/statement/2/EarningsBeforeInterestAndTaxes",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/EarningsBeforeInterestAndTaxes/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/EarningsBeforeInterestAndTaxes/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "InterestExpense": {
+                              "id": "/query/results/incomestatement/1/statement/2/InterestExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/InterestExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/InterestExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeBeforeTax": {
+                              "id": "/query/results/incomestatement/1/statement/2/IncomeBeforeTax",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/IncomeBeforeTax/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/IncomeBeforeTax/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeTaxExpense": {
+                              "id": "/query/results/incomestatement/1/statement/2/IncomeTaxExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/IncomeTaxExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/IncomeTaxExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "MinorityInterest": {
+                              "id": "/query/results/incomestatement/1/statement/2/MinorityInterest",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/MinorityInterest/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/MinorityInterest/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeFromContinuingOps": {
+                              "id": "/query/results/incomestatement/1/statement/2/NetIncomeFromContinuingOps",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/NetIncomeFromContinuingOps/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/NetIncomeFromContinuingOps/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "DiscontinuedOperations": {
+                              "id": "/query/results/incomestatement/1/statement/2/DiscontinuedOperations",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/DiscontinuedOperations/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/DiscontinuedOperations/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ExtraordinaryItems": {
+                              "id": "/query/results/incomestatement/1/statement/2/ExtraordinaryItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/ExtraordinaryItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/ExtraordinaryItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EffectOfAccountingChanges": {
+                              "id": "/query/results/incomestatement/1/statement/2/EffectOfAccountingChanges",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/EffectOfAccountingChanges/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/EffectOfAccountingChanges/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OtherItems": {
+                              "id": "/query/results/incomestatement/1/statement/2/OtherItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/OtherItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/OtherItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncome": {
+                              "id": "/query/results/incomestatement/1/statement/2/NetIncome",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/NetIncome/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/NetIncome/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                              "id": "/query/results/incomestatement/1/statement/2/PreferredStockAndOtherAdjustments",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/PreferredStockAndOtherAdjustments/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/PreferredStockAndOtherAdjustments/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                              "id": "/query/results/incomestatement/1/statement/2/NetIncomeApplicableToCommonShares",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/2/NetIncomeApplicableToCommonShares/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/2/NetIncomeApplicableToCommonShares/content",
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "/query/results/incomestatement/1/statement/3",
+                          "type": "object",
+                          "properties": {
+                            "period": {
+                              "id": "/query/results/incomestatement/1/statement/3/period",
+                              "type": "string"
+                            },
+                            "TotalRevenue": {
+                              "id": "/query/results/incomestatement/1/statement/3/TotalRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/TotalRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/TotalRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "CostofRevenue": {
+                              "id": "/query/results/incomestatement/1/statement/3/CostofRevenue",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/CostofRevenue/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/CostofRevenue/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "GrossProfit": {
+                              "id": "/query/results/incomestatement/1/statement/3/GrossProfit",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/GrossProfit/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/GrossProfit/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ResearchDevelopment": {
+                              "id": "/query/results/incomestatement/1/statement/3/ResearchDevelopment",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/ResearchDevelopment/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/ResearchDevelopment/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "SellingGeneralandAdministrative": {
+                              "id": "/query/results/incomestatement/1/statement/3/SellingGeneralandAdministrative",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/SellingGeneralandAdministrative/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/SellingGeneralandAdministrative/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NonRecurring": {
+                              "id": "/query/results/incomestatement/1/statement/3/NonRecurring",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/NonRecurring/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/NonRecurring/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "Others": {
+                              "id": "/query/results/incomestatement/1/statement/3/Others",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/Others/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/Others/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOperatingExpenses": {
+                              "id": "/query/results/incomestatement/1/statement/3/TotalOperatingExpenses",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/TotalOperatingExpenses/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/TotalOperatingExpenses/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OperatingIncomeorLoss": {
+                              "id": "/query/results/incomestatement/1/statement/3/OperatingIncomeorLoss",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/OperatingIncomeorLoss/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/OperatingIncomeorLoss/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "TotalOtherIncome_ExpensesNet": {
+                              "id": "/query/results/incomestatement/1/statement/3/TotalOtherIncome_ExpensesNet",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/TotalOtherIncome_ExpensesNet/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/TotalOtherIncome_ExpensesNet/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EarningsBeforeInterestAndTaxes": {
+                              "id": "/query/results/incomestatement/1/statement/3/EarningsBeforeInterestAndTaxes",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/EarningsBeforeInterestAndTaxes/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/EarningsBeforeInterestAndTaxes/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "InterestExpense": {
+                              "id": "/query/results/incomestatement/1/statement/3/InterestExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/InterestExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/InterestExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeBeforeTax": {
+                              "id": "/query/results/incomestatement/1/statement/3/IncomeBeforeTax",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/IncomeBeforeTax/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/IncomeBeforeTax/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "IncomeTaxExpense": {
+                              "id": "/query/results/incomestatement/1/statement/3/IncomeTaxExpense",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/IncomeTaxExpense/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/IncomeTaxExpense/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "MinorityInterest": {
+                              "id": "/query/results/incomestatement/1/statement/3/MinorityInterest",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/MinorityInterest/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/MinorityInterest/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeFromContinuingOps": {
+                              "id": "/query/results/incomestatement/1/statement/3/NetIncomeFromContinuingOps",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/NetIncomeFromContinuingOps/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/NetIncomeFromContinuingOps/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "DiscontinuedOperations": {
+                              "id": "/query/results/incomestatement/1/statement/3/DiscontinuedOperations",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/DiscontinuedOperations/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/DiscontinuedOperations/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "ExtraordinaryItems": {
+                              "id": "/query/results/incomestatement/1/statement/3/ExtraordinaryItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/ExtraordinaryItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/ExtraordinaryItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "EffectOfAccountingChanges": {
+                              "id": "/query/results/incomestatement/1/statement/3/EffectOfAccountingChanges",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/EffectOfAccountingChanges/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/EffectOfAccountingChanges/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "OtherItems": {
+                              "id": "/query/results/incomestatement/1/statement/3/OtherItems",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/OtherItems/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/OtherItems/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncome": {
+                              "id": "/query/results/incomestatement/1/statement/3/NetIncome",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/NetIncome/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/NetIncome/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "PreferredStockAndOtherAdjustments": {
+                              "id": "/query/results/incomestatement/1/statement/3/PreferredStockAndOtherAdjustments",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/PreferredStockAndOtherAdjustments/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/PreferredStockAndOtherAdjustments/content",
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "NetIncomeApplicableToCommonShares": {
+                              "id": "/query/results/incomestatement/1/statement/3/NetIncomeApplicableToCommonShares",
+                              "type": "object",
+                              "properties": {
+                                "report_row": {
+                                  "id": "/query/results/incomestatement/1/statement/3/NetIncomeApplicableToCommonShares/report_row",
+                                  "type": "string"
+                                },
+                                "content": {
+                                  "id": "/query/results/incomestatement/1/statement/3/NetIncomeApplicableToCommonShares/content",
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "required": [
+        "count",
+        "created",
+        "lang",
+        "results"
+      ]
+    }
+  },
+  "required": [
+    "query"
+  ]
+}
+
