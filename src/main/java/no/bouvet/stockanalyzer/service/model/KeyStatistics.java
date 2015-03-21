@@ -3,9 +3,7 @@ package no.bouvet.stockanalyzer.service.model;
 import no.bouvet.stockanalyzer.exception.StockAnalyzerException;
 import no.bouvet.stockanalyzer.model.yahoofinance.CommonStock;
 import no.bouvet.stockanalyzer.model.yahoofinance.Property;
-import no.bouvet.stockanalyzer.utils.Config;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
 
 /**

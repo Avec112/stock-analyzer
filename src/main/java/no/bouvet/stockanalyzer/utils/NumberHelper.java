@@ -7,9 +7,7 @@ import org.apache.commons.lang.NotImplementedException;
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
-import java.text.NumberFormat;
 import java.text.ParseException;
-import java.util.Locale;
 
 /**
  * Created with IntelliJ IDEA.

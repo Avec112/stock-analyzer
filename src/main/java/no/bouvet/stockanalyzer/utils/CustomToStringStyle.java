@@ -2,9 +2,6 @@ package no.bouvet.stockanalyzer.utils;
 
 import org.apache.commons.lang.builder.ToStringStyle;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
-
 /**
  * Created with IntelliJ IDEA.
  * User: ronny.ness

@@ -1,6 +1,7 @@
 package no.bouvet.stockanalyzer.service;
 
 //import no.bouvet.stockanalyzer.model.Stock;
+
 import no.bouvet.stockanalyzer.model.StockQuote;
 import no.bouvet.stockanalyzer.model.yahoofinance.BalanceSheet;
 import no.bouvet.stockanalyzer.model.yahoofinance.CashFlow;
@@ -13,10 +14,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import yahoofinance.Stock;
 
 import javax.annotation.PostConstruct;
-import java.io.IOException;
 import java.util.List;
 
 /**

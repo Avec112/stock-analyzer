@@ -3,7 +3,6 @@ package no.bouvet.stockanalyzer.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import no.bouvet.stockanalyzer.model.StockQuote;
-import org.apache.commons.lang.NotImplementedException;
 import org.apache.commons.lang.StringUtils;
 import org.jdom2.Document;
 import org.jdom2.output.Format;

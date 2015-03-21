@@ -1,7 +1,6 @@
 package no.bouvet.stockanalyzer.model.yahoofinance;
 
 import no.bouvet.stockanalyzer.exception.StockAnalyzerException;
-import no.bouvet.stockanalyzer.utils.Config;
 
 import java.math.BigDecimal;
 

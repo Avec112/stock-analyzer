@@ -1,14 +1,12 @@
 package no.bouvet.stockanalyzer.utils;
 
 import no.bouvet.stockanalyzer.exception.StockAnalyzerException;
-import org.apache.commons.lang.NotImplementedException;
 import org.apache.commons.lang.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
 
 import java.io.IOException;
 

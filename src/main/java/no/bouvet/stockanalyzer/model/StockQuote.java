@@ -3,7 +3,6 @@ package no.bouvet.stockanalyzer.model;
 
 import no.bouvet.stockanalyzer.utils.CustomToStringStyle;
 import org.apache.commons.lang.builder.ToStringBuilder;
-import org.apache.commons.lang.builder.ToStringStyle;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
