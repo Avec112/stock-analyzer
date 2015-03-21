@@ -16,7 +16,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @Configuration
 @EnableWebMvc
 @EnableSwagger
-//@ComponentScan("no.vegvesen.services.informasjonsflateService")
 public class CustomJavaPluginConfig {
     
     @Value("${version}")

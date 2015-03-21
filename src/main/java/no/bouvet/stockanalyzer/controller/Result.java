@@ -2,14 +2,19 @@ package no.bouvet.stockanalyzer.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import no.bouvet.stockanalyzer.model.StockQuote;
 import org.apache.commons.lang.NotImplementedException;
 import org.apache.commons.lang.StringUtils;
 import org.jdom2.Document;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
+import org.jdom2.transform.JDOMResult;
 import org.springframework.http.MediaType;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
 import java.io.IOException;
 
 /**
@@ -35,25 +40,24 @@ public class Result {
             
         } else if(format.equalsIgnoreCase("xml")) {
 
-            throw new NotImplementedException();
+//            throw new NotImplementedException();
             
-            /*try {
-                MyCharacterResponse myCharacterResponse = new MyCharacterResponse((List<MyCharacter>)obj);
+            try {
                 JDOMResult result = new JDOMResult();
 
-                JAXBContext jaxbContext = JAXBContext.newInstance(MyCharacterResponse.class);
+                JAXBContext jaxbContext = JAXBContext.newInstance(StockQuote.class);
                 Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 
                 // output pretty printed
                 jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
                 
-                jaxbMarshaller.marshal(myCharacterResponse, result);
+                jaxbMarshaller.marshal(obj, result);
 
                 asXml(result.getDocument(), response);
                 
             } catch(JAXBException e) {
                 e.printStackTrace();
-            } */
+            }
         } else {  // error
             asJSON("parameter format=" + format + " is not supported.", response);     
         }

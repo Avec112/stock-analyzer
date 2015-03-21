@@ -28,28 +28,26 @@ public class AnalysisController {
     @Autowired private StockService stockService;
 
 
-    @RequestMapping(method = RequestMethod.GET, value = "/analyze/{ticker}")
-    @ApiOperation(value="/analyze/:ticker?(format=json|xml)", notes = "Whatever")
+    @RequestMapping(method = RequestMethod.GET, value = "/quote/{symbol}")
+    @ApiOperation(value="/quote/:symbol?(format=json|xml)", notes = "Whatever")
     public void analyzeTicker(
-//            @RequestParam(value = "amount") Integer amount,
-            @PathVariable(value = "ticker") String ticker,
+            @PathVariable(value = "symbol") String symbol,
             @RequestParam(value = "format", required = false) String format,
-//            @PathVariable(value = "format") String format,
             HttpServletResponse response) {
 
-        log.info("/analyze/{} is accessed.", ticker);
+        log.info("/quote/{} is accessed.", symbol);
         log.debug("format=" + format);
 
         try {
 
-            if(StringUtils.isNotBlank(ticker)) {
+            if(StringUtils.isNotBlank(symbol)) {
                 StopWatch watch = new StopWatch();
                 watch.start();
-                Result.asFormat(stockService.lookupStock(ticker), response, format);
+                Result.asFormat(stockService.getStockQuote(symbol), response, format);
                 watch.stop();
-                log.debug("Creating {} {} objects took {}", ticker, (format == null)?"json":format, watch.toString());
+                log.debug("Creating {} {} objects took {}", symbol, (format == null)?"json":format, watch.toString());
             } else {
-                Result.asFormat("Sorry ticker '{}' is not found.", response, format);
+                Result.asFormat("Sorry symbol '{}' is not found.", response, format);
             }
         } catch (IOException e) {
             log.error("Oh, snap!", e);
